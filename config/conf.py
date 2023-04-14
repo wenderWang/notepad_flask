@@ -17,6 +17,7 @@ ENV = os.getenv("ENV")
 DEBUG = ENV == "dev"
 TZ = pytz.timezone(os.getenv("TZ"))
 PORT = os.getenv("PORT")
+LOG_LEVEL = os.getenv("LOG_LEVEL")
 
 # ********************* DATABASE *********************
 # MYSQL
