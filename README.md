@@ -1,2 +1,2 @@
 # notepad_flask
-基于python、flask开发的记事本Demo
+基于python、flask开发的Demo
