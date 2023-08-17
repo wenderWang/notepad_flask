@@ -1,0 +1,30 @@
+[tool.poetry]
+name = "notepad-flask"
+version = "0.1.0"
+description = "基于python3.10、flask、mysql开发的记事本程序"
+authors = ["wender <wenderw@163.com>"]
+readme = "README.md"
+packages = [{include = "notepad_flask"}]
+
+[tool.poetry.dependencies]
+python = "^3.10"
+pytz = "^2023.3"
+python-dotenv = "^1.0.0"
+flask = "^2.3.2"
+loguru = "^0.7.0"
+
+
+[[tool.poetry.source]]
+name = "aliyun"
+url = "http://mirrors.aliyun.com/pypi/simple/"
+priority = "default"
+
+
+[[tool.poetry.source]]
+name = "datagrand"
+url = "https://repo.datagrand.com/repository/pypi/simple"
+priority = "primary"
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
